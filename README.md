@@ -1,1 +1,1 @@
-# Boa - Interactive and Fun Multiplyer Trivia in the Browser
+# Boa - [STEALTH MODE]
