@@ -2,14 +2,13 @@ import * as React from 'react';
 import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
-import Button from '@mui/material/Button';
-import NextLink from 'next/link';
-import ProTip from '@/components/ProTip';
 import Copyright from '@/components/Copyright';
+import Navbar from '@/components/Navbar';
 
-export default function About() {
+export default function Home() {
   return (
     <Container maxWidth="lg">
+        <Navbar />
       <Box
         sx={{
           my: 4,
@@ -20,14 +19,8 @@ export default function About() {
         }}
       >
         <Typography variant="h4" component="h1" sx={{ mb: 2 }}>
-          Material UI - Next.js example in TypeScript
+          Welcome to Boa - Interactive and fun multiplayer trivia
         </Typography>
-        <Box sx={{ maxWidth: 'sm' }}>
-          <Button variant="contained" component={NextLink} href="/">
-            Go to the home page
-          </Button>
-        </Box>
-        <ProTip />
         <Copyright />
       </Box>
     </Container>
